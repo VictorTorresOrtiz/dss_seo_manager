@@ -2,7 +2,7 @@
 /*
 Plugin Name: DSS SEO Manager
 Description: Cambia etiquetas HTML y añade clases personalizadas desde el panel de ajustes.
-Version: 1.1
+Version: 1.2
 Author: DSS NETWORK - Víctor Torres Ortiz
 */
 
@@ -21,7 +21,7 @@ function tag_changer_html() {
     $rules = get_option('tag_changer_rules', [['selector' => '', 'tag' => 'h3', 'extra_classes' => '']]);
     ?>
     <div class="wrap">
-        <h1>Configuración de Cambio de Etiquetas y Clases</h1>
+        <h1>DSS NETWORK - Seo Manager</h1>
         <p>Define el selector, la etiqueta de destino y, opcionalmente, clases adicionales separadas por espacios.</p>
         <form method="post">
             <table class="wp-list-table widefat fixed striped" id="tag-rules-table">
@@ -29,7 +29,7 @@ function tag_changer_html() {
                     <tr>
                         <th style="width: 40%;">Selector CSS (Ej: .post_title)</th>
                         <th style="width: 15%;">Etiqueta (h2, h3...)</th>
-                        <th style="width: 30%;">Clases Extra (opcional)</th>
+                        <th style="width: 30%;">Clases Extra (Opcional)</th>
                         <th style="width: 15%;">Acción</th>
                     </tr>
                 </thead>
