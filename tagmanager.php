@@ -2,7 +2,7 @@
 /*
 Plugin Name: DSS SEO Manager
 Description: Cambia etiquetas HTML y añade clases personalizadas desde el panel de ajustes.
-Version: 1.0
+Version: 1.1
 Author: DSS NETWORK - Víctor Torres Ortiz
 */
 
